@@ -8,9 +8,16 @@ $font1 : 'MerriweatherLight', 'sans-serif';
 $font2: 'Inter-ExtraBold';
 
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'MerriweatherLight';
+    color: white;
 }
 
 h1{
     font-family: 'Inter-ExtraBold';
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    text-align: center;
+    letter-spacing: 4px;
 }
