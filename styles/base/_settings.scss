@@ -1,0 +1,16 @@
+@import url('https://allfont.net/allfont.css?fonts=merriweather-light');
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url('../../assets/fonts/Inter\ Extra\ Bold\ 800.otf');
+}
+
+$font1 : 'MerriweatherLight', 'sans-serif';
+$font2: 'Inter-ExtraBold';
+
+body{
+    font-family: 'MerriweatherLight';
+}
+
+h1{
+    font-family: 'Inter-ExtraBold';
+}
