@@ -18,6 +18,10 @@
     }
 }
 
+.date::before{
+ border-left: 1px solid $color3;
+}
+
 .article-img{
     width: 75%;
     height: 400px;

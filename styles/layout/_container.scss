@@ -30,3 +30,46 @@ main{
         text-align: justify;
     }
 }
+
+.footer-container{
+    width: 80vw;
+    height: 75vh;
+    background: $color2;
+    display: flex;
+}
+
+.form-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid $color3;
+
+    & form{
+        width: 75%;
+        height: 90%;
+        text-transform: uppercase;
+        font-family: $font2;
+        color: rgb(99, 97, 97);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        & input{
+            border: 1px solid $color3;
+            background: none;
+            height: 45px;
+        }
+
+        & textarea{
+            resize: none;
+            background: none;
+            border: 1px solid $color3;
+            height: 20vh;
+        }
+    }
+}
+
+.infos-container{
+    width: 50%;
+}
