@@ -229,6 +229,43 @@ main {
 
 .infos-container {
   width: 50%;
+  display: grid;
+  color: #929090;
+}
+
+.infos-container h4 {
+  text-transform: uppercase;
+  color: #636161;
+  font-family: "Inter-ExtraBold";
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+
+.infos-container .address {
+  display: grid;
+  grid-template-columns: 115px 1fr;
+  border-bottom: 1px solid rgba(187, 185, 185, 0.4);
+  align-items: center;
+}
+
+.infos-container .phone {
+  display: grid;
+  grid-template-columns: 115px 1fr;
+  border-bottom: 1px solid rgba(187, 185, 185, 0.4);
+  align-items: center;
+}
+
+.infos-container .email {
+  display: grid;
+  grid-template-columns: 115px 1fr;
+  border-bottom: 1px solid rgba(187, 185, 185, 0.4);
+  align-items: center;
+}
+
+.infos-container .social {
+  display: grid;
+  grid-template-columns: 115px 1fr;
+  align-items: center;
 }
 
 .btn {
