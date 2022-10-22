@@ -72,4 +72,40 @@ main{
 
 .infos-container{
     width: 50%;
+    display: grid;
+    color: $grey2;
+    
+
+    & h4{
+        text-transform: uppercase;
+        color: $grey1;
+        font-family: $font2;
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+    }
+
+    & .address  {
+        display: grid;
+        grid-template-columns: 115px 1fr;
+        border-bottom: 1px solid $color3;
+        align-items: center;
+    }
+
+    & .phone{
+        display: grid;
+        grid-template-columns: 115px 1fr;
+        border-bottom: 1px solid $color3;
+        align-items: center;
+    }
+    & .email{
+        display: grid;
+        grid-template-columns: 115px 1fr;
+        border-bottom: 1px solid $color3;
+        align-items: center;
+    }
+    & .social{
+        display: grid;
+        grid-template-columns: 115px 1fr;
+        align-items: center;
+    }
 }
