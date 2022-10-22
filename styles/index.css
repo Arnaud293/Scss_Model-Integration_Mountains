@@ -108,6 +108,10 @@ header nav ul i {
   align-items: center;
 }
 
+.date::before {
+  border-left: 1px solid rgba(187, 185, 185, 0.4);
+}
+
 .article-img {
   width: 75%;
   height: 400px;
@@ -184,14 +188,77 @@ main {
   text-align: justify;
 }
 
+.footer-container {
+  width: 80vw;
+  height: 75vh;
+  background: #edebeb;
+  display: flex;
+}
+
+.form-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgba(187, 185, 185, 0.4);
+}
+
+.form-container form {
+  width: 75%;
+  height: 90%;
+  text-transform: uppercase;
+  font-family: "Inter-ExtraBold";
+  color: #636161;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.form-container form input {
+  border: 1px solid rgba(187, 185, 185, 0.4);
+  background: none;
+  height: 45px;
+}
+
+.form-container form textarea {
+  resize: none;
+  background: none;
+  border: 1px solid rgba(187, 185, 185, 0.4);
+  height: 20vh;
+}
+
+.infos-container {
+  width: 50%;
+}
+
 .btn {
   border-style: none;
-  width: 150px;
+  width: 165px;
   height: 45px;
   border: solid 2px black;
   color: black;
   background: white;
   text-transform: uppercase;
   font-family: "Inter-ExtraBold";
+  letter-spacing: 1px;
+}
+
+.btn2 {
+  letter-spacing: 2px;
+  border-style: none;
+  width: 180px;
+  height: 45px;
+  border: solid 2px #636161;
+  color: #636161;
+  background: none;
+  text-transform: uppercase;
+  font-family: "Inter-ExtraBold";
+}
+
+footer {
+  margin-top: 35px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
 }
 /*# sourceMappingURL=index.css.map */
