@@ -75,6 +75,9 @@ main{
     display: grid;
     color: $grey2;
     
+    & .icons-container{
+        display: flex;
+    }
 
     & h4{
         text-transform: uppercase;
@@ -82,30 +85,43 @@ main{
         font-family: $font2;
         letter-spacing: 2px;
         font-size: 0.8rem;
+        grid-column-start: 2;
     }
 
     & .address  {
         display: grid;
-        grid-template-columns: 115px 1fr;
+        grid-template-columns:35px 130px 1fr;
         border-bottom: 1px solid $color3;
         align-items: center;
     }
 
     & .phone{
         display: grid;
-        grid-template-columns: 115px 1fr;
+        grid-template-columns:35px 130px 1fr;
         border-bottom: 1px solid $color3;
         align-items: center;
     }
     & .email{
         display: grid;
-        grid-template-columns: 115px 1fr;
+        grid-template-columns:35px 130px 1fr;
         border-bottom: 1px solid $color3;
         align-items: center;
     }
     & .social{
         display: grid;
-        grid-template-columns: 115px 1fr;
+        grid-template-columns:35px 130px 1fr;
         align-items: center;
+
+        & i{
+            width: 45px;
+            height: 45px;
+            font-size: 1.5rem;
+            border: 1px solid $color3;
+            border-radius: 50%;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }

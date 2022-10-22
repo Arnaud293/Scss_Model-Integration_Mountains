@@ -233,38 +233,55 @@ main {
   color: #929090;
 }
 
+.infos-container .icons-container {
+  display: flex;
+}
+
 .infos-container h4 {
   text-transform: uppercase;
   color: #636161;
   font-family: "Inter-ExtraBold";
   letter-spacing: 2px;
   font-size: 0.8rem;
+  grid-column-start: 2;
 }
 
 .infos-container .address {
   display: grid;
-  grid-template-columns: 115px 1fr;
+  grid-template-columns: 35px 130px 1fr;
   border-bottom: 1px solid rgba(187, 185, 185, 0.4);
   align-items: center;
 }
 
 .infos-container .phone {
   display: grid;
-  grid-template-columns: 115px 1fr;
+  grid-template-columns: 35px 130px 1fr;
   border-bottom: 1px solid rgba(187, 185, 185, 0.4);
   align-items: center;
 }
 
 .infos-container .email {
   display: grid;
-  grid-template-columns: 115px 1fr;
+  grid-template-columns: 35px 130px 1fr;
   border-bottom: 1px solid rgba(187, 185, 185, 0.4);
   align-items: center;
 }
 
 .infos-container .social {
   display: grid;
-  grid-template-columns: 115px 1fr;
+  grid-template-columns: 35px 130px 1fr;
+  align-items: center;
+}
+
+.infos-container .social i {
+  width: 45px;
+  height: 45px;
+  font-size: 1.5rem;
+  border: 1px solid rgba(187, 185, 185, 0.4);
+  border-radius: 50%;
+  color: black;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
