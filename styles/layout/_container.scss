@@ -1,0 +1,32 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.main-content{
+    width: 80vw;
+    height: 240vh;
+    background-color: white;
+    color: black;
+}
+
+.sub-article-container{
+    height: 90vh;
+    display: flex;
+    text-align: center;
+    // margin: 10px;
+
+    & h1{
+        font-size: 1.5rem;
+    }
+
+    & img{
+        object-fit: cover;
+        width: 100%;
+    }
+    & p{
+        width: 75%;
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+}
