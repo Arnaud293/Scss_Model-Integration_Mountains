@@ -90,6 +90,7 @@ main{
     & .icons-container{
         display: flex;
         gap: 20px;
+        flex-wrap: wrap;
     }
 
     & h4{
