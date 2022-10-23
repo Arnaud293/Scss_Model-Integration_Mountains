@@ -235,6 +235,7 @@ main {
 
 .infos-container .icons-container {
   display: flex;
+  gap: 20px;
 }
 
 .infos-container h4 {
@@ -295,6 +296,7 @@ main {
   text-transform: uppercase;
   font-family: "Inter-ExtraBold";
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .btn2 {
@@ -307,6 +309,7 @@ main {
   background: none;
   text-transform: uppercase;
   font-family: "Inter-ExtraBold";
+  cursor: pointer;
 }
 
 footer {
