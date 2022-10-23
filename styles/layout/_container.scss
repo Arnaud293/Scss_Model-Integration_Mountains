@@ -8,6 +8,12 @@ main{
     height: 240vh;
     background-color: white;
     color: black;
+
+    & .date-container{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
 }
 
 .sub-article-container{
@@ -87,6 +93,10 @@ main{
         letter-spacing: 2px;
         font-size: 0.8rem;
         grid-column-start: 2;
+    }
+
+    & p{
+        font-size: 1.1rem;
     }
 
     & .address  {
