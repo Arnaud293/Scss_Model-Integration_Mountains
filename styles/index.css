@@ -108,6 +108,12 @@ header nav ul i {
   align-items: center;
 }
 
+.main-article-top-content h4 {
+  color: #636161;
+  font-size: 1.2rem;
+  font-family: "MerriweatherLight", "sans-serif";
+}
+
 .date::before {
   border-left: 1px solid rgba(187, 185, 185, 0.4);
 }
@@ -165,6 +171,12 @@ main {
   height: 240vh;
   background-color: white;
   color: black;
+}
+
+.main-content .date-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 .sub-article-container {
@@ -247,6 +259,10 @@ main {
   grid-column-start: 2;
 }
 
+.infos-container p {
+  font-size: 1.1rem;
+}
+
 .infos-container .address {
   display: grid;
   grid-template-columns: 35px 130px 1fr;
@@ -317,5 +333,10 @@ footer {
   margin-bottom: 55px;
   display: flex;
   justify-content: center;
+}
+
+.border {
+  border-bottom: 1px solid rgba(187, 185, 185, 0.4);
+  width: 38vh;
 }
 /*# sourceMappingURL=index.css.map */
