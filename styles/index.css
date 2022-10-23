@@ -175,9 +175,11 @@ main {
 }
 
 .main-content .date-container {
-  display: flex;
+  display: grid;
   align-items: center;
   gap: 50px;
+  width: 100%;
+  grid-template-columns: 1fr 150px 1fr;
 }
 
 .sub-article-container {
@@ -342,6 +344,5 @@ footer {
 
 .border {
   border-bottom: 1px solid rgba(187, 185, 185, 0.4);
-  width: 38vh;
 }
 /*# sourceMappingURL=index.css.map */
