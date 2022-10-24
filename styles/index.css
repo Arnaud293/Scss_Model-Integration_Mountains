@@ -20,6 +20,20 @@ h1 {
   letter-spacing: 4px;
 }
 
+@media screen and (max-width: 980px) {
+  h1 {
+    max-width: 70vw;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    max-width: 70vw;
+    font-size: 2rem;
+  }
+}
+
 header {
   height: 100vh;
   display: flex;
@@ -35,11 +49,23 @@ header .header-top {
   height: 92vh;
 }
 
+@media screen and (max-width: 550px) {
+  header .header-top {
+    height: 90vh;
+  }
+}
+
 header .header-top p {
   font-size: 1.4rem;
   font-style: italic;
   opacity: 0.7;
   text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  header .header-top p {
+    max-width: 75vw;
+  }
 }
 
 header i {
@@ -54,12 +80,21 @@ header nav {
   background-color: rgba(187, 185, 185, 0.4);
 }
 
+@media screen and (max-width: 980px) {
+  header nav {
+    height: 10vh;
+  }
+}
+
 header nav ul {
   list-style: none;
   display: flex;
   margin: 0px;
   margin-block-start: 0;
   padding-inline-start: 0;
+  text-align: center;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 header nav ul a {
@@ -82,6 +117,12 @@ header nav ul li {
 header nav ul i {
   font-size: 1.4rem;
   margin-right: 30px;
+}
+
+@media screen and (max-width: 980px) {
+  header nav .nav-icon {
+    display: none;
+  }
 }
 
 .nav-menu a:hover:hover {
