@@ -206,6 +206,12 @@ header nav ul i {
   align-items: center;
 }
 
+@media screen and (max-width: 980px) {
+  .sub-article1 {
+    width: 100%;
+  }
+}
+
 .sub-article2 {
   width: 50%;
   border-top: 1px solid rgba(187, 185, 185, 0.4);
@@ -215,6 +221,13 @@ header nav ul i {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+  .sub-article2 {
+    width: 100%;
+    border: none;
+  }
 }
 
 main {
@@ -229,6 +242,12 @@ main {
   color: black;
 }
 
+@media screen and (max-width: 980px) {
+  .main-content {
+    height: auto;
+  }
+}
+
 .main-content .date-container {
   display: grid;
   align-items: center;
@@ -241,6 +260,13 @@ main {
   height: 90vh;
   display: flex;
   text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  .sub-article-container {
+    flex-direction: column;
+    height: 180vh;
+  }
 }
 
 .sub-article-container h1 {

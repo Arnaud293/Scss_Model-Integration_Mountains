@@ -9,6 +9,10 @@ main{
     background-color: white;
     color: black;
 
+    @media screen and(max-width: 980px){
+        height: auto;
+    }
+
     & .date-container{
         display: grid;
         align-items: center;
@@ -22,7 +26,11 @@ main{
     height: 90vh;
     display: flex;
     text-align: center;
-    // margin: 10px;
+    
+    @media screen and(max-width: 980px){
+    flex-direction: column;
+    height: 180vh;
+    }
 
     & h1{
         font-size: 1.5rem;
