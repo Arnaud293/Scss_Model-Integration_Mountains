@@ -48,6 +48,10 @@ main{
     height: 75vh;
     background: $color2;
     display: flex;
+
+    @media screen and(max-width: 980px){
+       flex-direction: column;
+    }
 }
 
 .form-container{
@@ -56,6 +60,10 @@ main{
     justify-content: center;
     align-items: center;
     border-right: 1px solid $color3;
+
+    @media screen and(max-width: 980px){
+        width: 100%;
+    }
 
     & form{
         width: 75%;
@@ -86,6 +94,10 @@ main{
     width: 50%;
     display: grid;
     color: $grey2;
+
+    @media screen and(max-width: 980px){
+        width: 100%;
+    }
     
     & .icons-container{
         display: flex;

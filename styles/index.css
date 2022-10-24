@@ -256,12 +256,24 @@ main {
   display: flex;
 }
 
+@media screen and (max-width: 980px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
 .form-container {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-right: 1px solid rgba(187, 185, 185, 0.4);
+}
+
+@media screen and (max-width: 980px) {
+  .form-container {
+    width: 100%;
+  }
 }
 
 .form-container form {
@@ -292,6 +304,12 @@ main {
   width: 50%;
   display: grid;
   color: #929090;
+}
+
+@media screen and (max-width: 980px) {
+  .infos-container {
+    width: 100%;
+  }
 }
 
 .infos-container .icons-container {
