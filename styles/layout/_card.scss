@@ -9,6 +9,11 @@
        font-size: 1.5rem;
        font-style: italic;
        text-align: center; 
+
+       @media screen and(max-width: 980px){ 
+       line-height: 4rem;
+        }
+
     }
 
     &-top-content{
@@ -44,6 +49,11 @@
 .main-article-img{
     width: 75%;
     height: 50%;
+
+    @media screen and(max-width: 980px){
+    width: 80%;
+    height: 20%;
+    }
 
     & img{
         object-fit: cover;

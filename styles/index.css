@@ -144,6 +144,12 @@ header nav ul i {
   text-align: center;
 }
 
+@media screen and (max-width: 980px) {
+  .main-article p {
+    line-height: 4rem;
+  }
+}
+
 .main-article-top-content {
   display: flex;
   flex-direction: column;
