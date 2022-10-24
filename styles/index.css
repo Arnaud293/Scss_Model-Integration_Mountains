@@ -177,6 +177,13 @@ header nav ul i {
   height: 50%;
 }
 
+@media screen and (max-width: 980px) {
+  .main-article-img {
+    width: 80%;
+    height: 20%;
+  }
+}
+
 .main-article-img img {
   object-fit: cover;
   width: 100%;
@@ -339,6 +346,12 @@ main {
   grid-template-columns: 35px 130px 1fr;
   border-bottom: 1px solid rgba(187, 185, 185, 0.4);
   align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+  .infos-container .address {
+    border-top: 1px solid rgba(187, 185, 185, 0.4);
+  }
 }
 
 .infos-container .phone {
